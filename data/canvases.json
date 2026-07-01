@@ -1,0 +1,956 @@
+[
+  {
+    "canvas_id": "can_prac_01",
+    "channel_id": "C_PRAC_OPS",
+    "channel_name": "#케이스-현장실습",
+    "domain": "practicum",
+    "title": "현장실습 중도 포기 처리 체크리스트",
+    "markdown": "# 현장실습 중도 포기 처리 체크리스트\n\n> 현장실습 도메인 운영 캔버스 (synthetic_demo)\n\n## 처리 단계\n- [ ] 접수 확인\n- [ ] 필요 서류 점검\n- [ ] 담당자 검토\n- [ ] 승인 라인 상신\n- [ ] 결과 통보\n\n## 연결 케이스\n- case_prac_001\n- case_prac_005\n- case_prac_009\n- case_prac_013\n\n## 근거 RAG\n- knowledge/practicum/",
+    "related_case_ids": [
+      "case_prac_001",
+      "case_prac_005",
+      "case_prac_009",
+      "case_prac_013"
+    ],
+    "source_type": "synthetic_demo"
+  },
+  {
+    "canvas_id": "can_prac_02",
+    "channel_id": "C_PRAC_OPS",
+    "channel_name": "#케이스-현장실습",
+    "domain": "practicum",
+    "title": "산재·상해보험 가입 가이드",
+    "markdown": "# 산재·상해보험 가입 가이드\n\n> 현장실습 도메인 운영 캔버스 (synthetic_demo)\n\n## 처리 단계\n- [ ] 접수 확인\n- [ ] 필요 서류 점검\n- [ ] 담당자 검토\n- [ ] 승인 라인 상신\n- [ ] 결과 통보\n\n## 연결 케이스\n- case_prac_002\n- case_prac_006\n- case_prac_010\n- case_prac_014\n\n## 근거 RAG\n- knowledge/practicum/",
+    "related_case_ids": [
+      "case_prac_002",
+      "case_prac_006",
+      "case_prac_010",
+      "case_prac_014"
+    ],
+    "source_type": "synthetic_demo"
+  },
+  {
+    "canvas_id": "can_prac_03",
+    "channel_id": "C_PRAC_OPS",
+    "channel_name": "#케이스-현장실습",
+    "domain": "practicum",
+    "title": "실습기관 변경 절차",
+    "markdown": "# 실습기관 변경 절차\n\n> 현장실습 도메인 운영 캔버스 (synthetic_demo)\n\n## 처리 단계\n- [ ] 접수 확인\n- [ ] 필요 서류 점검\n- [ ] 담당자 검토\n- [ ] 승인 라인 상신\n- [ ] 결과 통보\n\n## 연결 케이스\n- case_prac_003\n- case_prac_007\n- case_prac_011\n\n## 근거 RAG\n- knowledge/practicum/",
+    "related_case_ids": [
+      "case_prac_003",
+      "case_prac_007",
+      "case_prac_011"
+    ],
+    "source_type": "synthetic_demo"
+  },
+  {
+    "canvas_id": "can_prac_04",
+    "channel_id": "C_PRAC_OPS",
+    "channel_name": "#케이스-현장실습",
+    "domain": "practicum",
+    "title": "현장실습 리스크 모니터링 보드",
+    "markdown": "# 현장실습 리스크 모니터링 보드\n\n> 현장실습 도메인 운영 캔버스 (synthetic_demo)\n\n## 처리 단계\n- [ ] 접수 확인\n- [ ] 필요 서류 점검\n- [ ] 담당자 검토\n- [ ] 승인 라인 상신\n- [ ] 결과 통보\n\n## 연결 케이스\n- case_prac_004\n- case_prac_008\n- case_prac_012\n\n## 근거 RAG\n- knowledge/practicum/",
+    "related_case_ids": [
+      "case_prac_004",
+      "case_prac_008",
+      "case_prac_012"
+    ],
+    "source_type": "synthetic_demo"
+  },
+  {
+    "canvas_id": "can_sch_01",
+    "channel_id": "C_SCH_REVIEW",
+    "channel_name": "#케이스-장학",
+    "domain": "scholarship",
+    "title": "장학금 중복 수혜 심사 기준",
+    "markdown": "# 장학금 중복 수혜 심사 기준\n\n> 장학 도메인 운영 캔버스 (synthetic_demo)\n\n## 처리 단계\n- [ ] 접수 확인\n- [ ] 필요 서류 점검\n- [ ] 담당자 검토\n- [ ] 승인 라인 상신\n- [ ] 결과 통보\n\n## 연결 케이스\n- case_sch_001\n- case_sch_005\n- case_sch_009\n- case_sch_013\n\n## 근거 RAG\n- knowledge/scholarship/",
+    "related_case_ids": [
+      "case_sch_001",
+      "case_sch_005",
+      "case_sch_009",
+      "case_sch_013"
+    ],
+    "source_type": "synthetic_demo"
+  },
+  {
+    "canvas_id": "can_sch_02",
+    "channel_id": "C_SCH_REVIEW",
+    "channel_name": "#케이스-장학",
+    "domain": "scholarship",
+    "title": "장학 서류 점검 체크리스트",
+    "markdown": "# 장학 서류 점검 체크리스트\n\n> 장학 도메인 운영 캔버스 (synthetic_demo)\n\n## 처리 단계\n- [ ] 접수 확인\n- [ ] 필요 서류 점검\n- [ ] 담당자 검토\n- [ ] 승인 라인 상신\n- [ ] 결과 통보\n\n## 연결 케이스\n- case_sch_002\n- case_sch_006\n- case_sch_010\n- case_sch_014\n\n## 근거 RAG\n- knowledge/scholarship/",
+    "related_case_ids": [
+      "case_sch_002",
+      "case_sch_006",
+      "case_sch_010",
+      "case_sch_014"
+    ],
+    "source_type": "synthetic_demo"
+  },
+  {
+    "canvas_id": "can_sch_03",
+    "channel_id": "C_SCH_REVIEW",
+    "channel_name": "#케이스-장학",
+    "domain": "scholarship",
+    "title": "소득분위 확인 절차",
+    "markdown": "# 소득분위 확인 절차\n\n> 장학 도메인 운영 캔버스 (synthetic_demo)\n\n## 처리 단계\n- [ ] 접수 확인\n- [ ] 필요 서류 점검\n- [ ] 담당자 검토\n- [ ] 승인 라인 상신\n- [ ] 결과 통보\n\n## 연결 케이스\n- case_sch_003\n- case_sch_007\n- case_sch_011\n\n## 근거 RAG\n- knowledge/scholarship/",
+    "related_case_ids": [
+      "case_sch_003",
+      "case_sch_007",
+      "case_sch_011"
+    ],
+    "source_type": "synthetic_demo"
+  },
+  {
+    "canvas_id": "can_sch_04",
+    "channel_id": "C_SCH_REVIEW",
+    "channel_name": "#케이스-장학",
+    "domain": "scholarship",
+    "title": "장학금 환수 처리 가이드",
+    "markdown": "# 장학금 환수 처리 가이드\n\n> 장학 도메인 운영 캔버스 (synthetic_demo)\n\n## 처리 단계\n- [ ] 접수 확인\n- [ ] 필요 서류 점검\n- [ ] 담당자 검토\n- [ ] 승인 라인 상신\n- [ ] 결과 통보\n\n## 연결 케이스\n- case_sch_004\n- case_sch_008\n- case_sch_012\n\n## 근거 RAG\n- knowledge/scholarship/",
+    "related_case_ids": [
+      "case_sch_004",
+      "case_sch_008",
+      "case_sch_012"
+    ],
+    "source_type": "synthetic_demo"
+  },
+  {
+    "canvas_id": "can_acad_01",
+    "channel_id": "C_ACAD_OPS",
+    "channel_name": "#케이스-학사",
+    "domain": "academic",
+    "title": "성적 이의신청 처리 절차",
+    "markdown": "# 성적 이의신청 처리 절차\n\n> 학사 도메인 운영 캔버스 (synthetic_demo)\n\n## 처리 단계\n- [ ] 접수 확인\n- [ ] 필요 서류 점검\n- [ ] 담당자 검토\n- [ ] 승인 라인 상신\n- [ ] 결과 통보\n\n## 연결 케이스\n- case_acad_001\n- case_acad_005\n- case_acad_009\n- case_acad_013\n\n## 근거 RAG\n- knowledge/academic/",
+    "related_case_ids": [
+      "case_acad_001",
+      "case_acad_005",
+      "case_acad_009",
+      "case_acad_013"
+    ],
+    "source_type": "synthetic_demo"
+  },
+  {
+    "canvas_id": "can_acad_02",
+    "channel_id": "C_ACAD_OPS",
+    "channel_name": "#케이스-학사",
+    "domain": "academic",
+    "title": "학적변동(휴·복학) 가이드",
+    "markdown": "# 학적변동(휴·복학) 가이드\n\n> 학사 도메인 운영 캔버스 (synthetic_demo)\n\n## 처리 단계\n- [ ] 접수 확인\n- [ ] 필요 서류 점검\n- [ ] 담당자 검토\n- [ ] 승인 라인 상신\n- [ ] 결과 통보\n\n## 연결 케이스\n- case_acad_002\n- case_acad_006\n- case_acad_010\n- case_acad_014\n\n## 근거 RAG\n- knowledge/academic/",
+    "related_case_ids": [
+      "case_acad_002",
+      "case_acad_006",
+      "case_acad_010",
+      "case_acad_014"
+    ],
+    "source_type": "synthetic_demo"
+  },
+  {
+    "canvas_id": "can_acad_03",
+    "channel_id": "C_ACAD_OPS",
+    "channel_name": "#케이스-학사",
+    "domain": "academic",
+    "title": "졸업요건 점검 체크리스트",
+    "markdown": "# 졸업요건 점검 체크리스트\n\n> 학사 도메인 운영 캔버스 (synthetic_demo)\n\n## 처리 단계\n- [ ] 접수 확인\n- [ ] 필요 서류 점검\n- [ ] 담당자 검토\n- [ ] 승인 라인 상신\n- [ ] 결과 통보\n\n## 연결 케이스\n- case_acad_003\n- case_acad_007\n- case_acad_011\n\n## 근거 RAG\n- knowledge/academic/",
+    "related_case_ids": [
+      "case_acad_003",
+      "case_acad_007",
+      "case_acad_011"
+    ],
+    "source_type": "synthetic_demo"
+  },
+  {
+    "canvas_id": "can_acad_04",
+    "channel_id": "C_ACAD_OPS",
+    "channel_name": "#케이스-학사",
+    "domain": "academic",
+    "title": "학사경고 관리 보드",
+    "markdown": "# 학사경고 관리 보드\n\n> 학사 도메인 운영 캔버스 (synthetic_demo)\n\n## 처리 단계\n- [ ] 접수 확인\n- [ ] 필요 서류 점검\n- [ ] 담당자 검토\n- [ ] 승인 라인 상신\n- [ ] 결과 통보\n\n## 연결 케이스\n- case_acad_004\n- case_acad_008\n- case_acad_012\n\n## 근거 RAG\n- knowledge/academic/",
+    "related_case_ids": [
+      "case_acad_004",
+      "case_acad_008",
+      "case_acad_012"
+    ],
+    "source_type": "synthetic_demo"
+  },
+  {
+    "canvas_id": "can_civil_01",
+    "channel_id": "C_CIVIL_DESK",
+    "channel_name": "#케이스-민원",
+    "domain": "complaint",
+    "title": "민원 처리 표준 절차",
+    "markdown": "# 민원 처리 표준 절차\n\n> 민원 도메인 운영 캔버스 (synthetic_demo)\n\n## 처리 단계\n- [ ] 접수 확인\n- [ ] 필요 서류 점검\n- [ ] 담당자 검토\n- [ ] 승인 라인 상신\n- [ ] 결과 통보\n\n## 연결 케이스\n- case_civil_001\n- case_civil_005\n- case_civil_009\n- case_civil_013\n\n## 근거 RAG\n- knowledge/complaint/",
+    "related_case_ids": [
+      "case_civil_001",
+      "case_civil_005",
+      "case_civil_009",
+      "case_civil_013"
+    ],
+    "source_type": "synthetic_demo"
+  },
+  {
+    "canvas_id": "can_civil_02",
+    "channel_id": "C_CIVIL_DESK",
+    "channel_name": "#케이스-민원",
+    "domain": "complaint",
+    "title": "개인정보 제공 동의 가이드",
+    "markdown": "# 개인정보 제공 동의 가이드\n\n> 민원 도메인 운영 캔버스 (synthetic_demo)\n\n## 처리 단계\n- [ ] 접수 확인\n- [ ] 필요 서류 점검\n- [ ] 담당자 검토\n- [ ] 승인 라인 상신\n- [ ] 결과 통보\n\n## 연결 케이스\n- case_civil_002\n- case_civil_006\n- case_civil_010\n- case_civil_014\n\n## 근거 RAG\n- knowledge/complaint/",
+    "related_case_ids": [
+      "case_civil_002",
+      "case_civil_006",
+      "case_civil_010",
+      "case_civil_014"
+    ],
+    "source_type": "synthetic_demo"
+  },
+  {
+    "canvas_id": "can_civil_03",
+    "channel_id": "C_CIVIL_DESK",
+    "channel_name": "#케이스-민원",
+    "domain": "complaint",
+    "title": "성적정보 제공 기준",
+    "markdown": "# 성적정보 제공 기준\n\n> 민원 도메인 운영 캔버스 (synthetic_demo)\n\n## 처리 단계\n- [ ] 접수 확인\n- [ ] 필요 서류 점검\n- [ ] 담당자 검토\n- [ ] 승인 라인 상신\n- [ ] 결과 통보\n\n## 연결 케이스\n- case_civil_003\n- case_civil_007\n- case_civil_011\n\n## 근거 RAG\n- knowledge/complaint/",
+    "related_case_ids": [
+      "case_civil_003",
+      "case_civil_007",
+      "case_civil_011"
+    ],
+    "source_type": "synthetic_demo"
+  },
+  {
+    "canvas_id": "can_civil_04",
+    "channel_id": "C_CIVIL_DESK",
+    "channel_name": "#케이스-민원",
+    "domain": "complaint",
+    "title": "등록금 환불 처리 절차",
+    "markdown": "# 등록금 환불 처리 절차\n\n> 민원 도메인 운영 캔버스 (synthetic_demo)\n\n## 처리 단계\n- [ ] 접수 확인\n- [ ] 필요 서류 점검\n- [ ] 담당자 검토\n- [ ] 승인 라인 상신\n- [ ] 결과 통보\n\n## 연결 케이스\n- case_civil_004\n- case_civil_008\n- case_civil_012\n\n## 근거 RAG\n- knowledge/complaint/",
+    "related_case_ids": [
+      "case_civil_004",
+      "case_civil_008",
+      "case_civil_012"
+    ],
+    "source_type": "synthetic_demo"
+  },
+  {
+    "canvas_id": "can_intl_01",
+    "channel_id": "C_INTL_SUPPORT",
+    "channel_name": "#케이스-유학생",
+    "domain": "international",
+    "title": "유학생 비자 서류 안내",
+    "markdown": "# 유학생 비자 서류 안내\n\n> 유학생 도메인 운영 캔버스 (synthetic_demo)\n\n## 처리 단계\n- [ ] 접수 확인\n- [ ] 필요 서류 점검\n- [ ] 담당자 검토\n- [ ] 승인 라인 상신\n- [ ] 결과 통보\n\n## 연결 케이스\n- case_intl_001\n- case_intl_005\n- case_intl_009\n- case_intl_013\n\n## 근거 RAG\n- knowledge/international/",
+    "related_case_ids": [
+      "case_intl_001",
+      "case_intl_005",
+      "case_intl_009",
+      "case_intl_013"
+    ],
+    "source_type": "synthetic_demo"
+  },
+  {
+    "canvas_id": "can_intl_02",
+    "channel_id": "C_INTL_SUPPORT",
+    "channel_name": "#케이스-유학생",
+    "domain": "international",
+    "title": "외국인등록·체류 관리",
+    "markdown": "# 외국인등록·체류 관리\n\n> 유학생 도메인 운영 캔버스 (synthetic_demo)\n\n## 처리 단계\n- [ ] 접수 확인\n- [ ] 필요 서류 점검\n- [ ] 담당자 검토\n- [ ] 승인 라인 상신\n- [ ] 결과 통보\n\n## 연결 케이스\n- case_intl_002\n- case_intl_006\n- case_intl_010\n- case_intl_014\n\n## 근거 RAG\n- knowledge/international/",
+    "related_case_ids": [
+      "case_intl_002",
+      "case_intl_006",
+      "case_intl_010",
+      "case_intl_014"
+    ],
+    "source_type": "synthetic_demo"
+  },
+  {
+    "canvas_id": "can_intl_03",
+    "channel_id": "C_INTL_SUPPORT",
+    "channel_name": "#케이스-유학생",
+    "domain": "international",
+    "title": "유학생 보험 가입 가이드",
+    "markdown": "# 유학생 보험 가입 가이드\n\n> 유학생 도메인 운영 캔버스 (synthetic_demo)\n\n## 처리 단계\n- [ ] 접수 확인\n- [ ] 필요 서류 점검\n- [ ] 담당자 검토\n- [ ] 승인 라인 상신\n- [ ] 결과 통보\n\n## 연결 케이스\n- case_intl_003\n- case_intl_007\n- case_intl_011\n\n## 근거 RAG\n- knowledge/international/",
+    "related_case_ids": [
+      "case_intl_003",
+      "case_intl_007",
+      "case_intl_011"
+    ],
+    "source_type": "synthetic_demo"
+  },
+  {
+    "canvas_id": "can_intl_04",
+    "channel_id": "C_INTL_SUPPORT",
+    "channel_name": "#케이스-유학생",
+    "domain": "international",
+    "title": "체류기간 만료 모니터링 보드",
+    "markdown": "# 체류기간 만료 모니터링 보드\n\n> 유학생 도메인 운영 캔버스 (synthetic_demo)\n\n## 처리 단계\n- [ ] 접수 확인\n- [ ] 필요 서류 점검\n- [ ] 담당자 검토\n- [ ] 승인 라인 상신\n- [ ] 결과 통보\n\n## 연결 케이스\n- case_intl_004\n- case_intl_008\n- case_intl_012\n\n## 근거 RAG\n- knowledge/international/",
+    "related_case_ids": [
+      "case_intl_004",
+      "case_intl_008",
+      "case_intl_012"
+    ],
+    "source_type": "synthetic_demo"
+  },
+  {
+    "canvas_id": "can_succ_01",
+    "channel_id": "C_SUCCESS_CARE",
+    "channel_name": "#케이스-학생성공",
+    "domain": "student_success",
+    "title": "학사경고 상담 매뉴얼",
+    "markdown": "# 학사경고 상담 매뉴얼\n\n> 학생성공 도메인 운영 캔버스 (synthetic_demo)\n\n## 처리 단계\n- [ ] 접수 확인\n- [ ] 필요 서류 점검\n- [ ] 담당자 검토\n- [ ] 승인 라인 상신\n- [ ] 결과 통보\n\n## 연결 케이스\n- case_succ_001\n- case_succ_005\n- case_succ_009\n- case_succ_013\n\n## 근거 RAG\n- knowledge/student_success/",
+    "related_case_ids": [
+      "case_succ_001",
+      "case_succ_005",
+      "case_succ_009",
+      "case_succ_013"
+    ],
+    "source_type": "synthetic_demo"
+  },
+  {
+    "canvas_id": "can_succ_02",
+    "channel_id": "C_SUCCESS_CARE",
+    "channel_name": "#케이스-학생성공",
+    "domain": "student_success",
+    "title": "중도탈락 위험 관리 보드",
+    "markdown": "# 중도탈락 위험 관리 보드\n\n> 학생성공 도메인 운영 캔버스 (synthetic_demo)\n\n## 처리 단계\n- [ ] 접수 확인\n- [ ] 필요 서류 점검\n- [ ] 담당자 검토\n- [ ] 승인 라인 상신\n- [ ] 결과 통보\n\n## 연결 케이스\n- case_succ_002\n- case_succ_006\n- case_succ_010\n- case_succ_014\n\n## 근거 RAG\n- knowledge/student_success/",
+    "related_case_ids": [
+      "case_succ_002",
+      "case_succ_006",
+      "case_succ_010",
+      "case_succ_014"
+    ],
+    "source_type": "synthetic_demo"
+  },
+  {
+    "canvas_id": "can_succ_03",
+    "channel_id": "C_SUCCESS_CARE",
+    "channel_name": "#케이스-학생성공",
+    "domain": "student_success",
+    "title": "상담 동의 절차",
+    "markdown": "# 상담 동의 절차\n\n> 학생성공 도메인 운영 캔버스 (synthetic_demo)\n\n## 처리 단계\n- [ ] 접수 확인\n- [ ] 필요 서류 점검\n- [ ] 담당자 검토\n- [ ] 승인 라인 상신\n- [ ] 결과 통보\n\n## 연결 케이스\n- case_succ_003\n- case_succ_007\n- case_succ_011\n\n## 근거 RAG\n- knowledge/student_success/",
+    "related_case_ids": [
+      "case_succ_003",
+      "case_succ_007",
+      "case_succ_011"
+    ],
+    "source_type": "synthetic_demo"
+  },
+  {
+    "canvas_id": "can_succ_04",
+    "channel_id": "C_SUCCESS_CARE",
+    "channel_name": "#케이스-학생성공",
+    "domain": "student_success",
+    "title": "학습부진 튜터링 운영",
+    "markdown": "# 학습부진 튜터링 운영\n\n> 학생성공 도메인 운영 캔버스 (synthetic_demo)\n\n## 처리 단계\n- [ ] 접수 확인\n- [ ] 필요 서류 점검\n- [ ] 담당자 검토\n- [ ] 승인 라인 상신\n- [ ] 결과 통보\n\n## 연결 케이스\n- case_succ_004\n- case_succ_008\n- case_succ_012\n\n## 근거 RAG\n- knowledge/student_success/",
+    "related_case_ids": [
+      "case_succ_004",
+      "case_succ_008",
+      "case_succ_012"
+    ],
+    "source_type": "synthetic_demo"
+  },
+  {
+    "canvas_id": "can_prac_ops_001",
+    "channel_id": "C_PRAC_OPS",
+    "channel_name": "#케이스-현장실습",
+    "domain": "practicum",
+    "title": "현장실습 월간 운영 리스크 보드 001",
+    "markdown": "# 현장실습 월간 운영 리스크 보드 001\n\n> 현장실습 케이스 운영 현황과 병목을 모니터링하는 synthetic_demo 캔버스입니다.\n\n## 점검 항목\n- [ ] 지연 케이스 확인\n- [ ] 누락 서류 회수\n- [ ] 승인 마감 점검\n- [ ] 고위험 케이스 관리자 보고\n\n## 연결 케이스\n- case_prac_015\n- case_prac_016\n- case_prac_017\n- case_prac_018\n- case_prac_019\n- case_prac_020\n- case_prac_021\n- case_prac_022\n- case_prac_023\n- case_prac_024",
+    "related_case_ids": [
+      "case_prac_015",
+      "case_prac_016",
+      "case_prac_017",
+      "case_prac_018",
+      "case_prac_019",
+      "case_prac_020",
+      "case_prac_021",
+      "case_prac_022",
+      "case_prac_023",
+      "case_prac_024"
+    ],
+    "source_type": "synthetic_demo"
+  },
+  {
+    "canvas_id": "can_prac_ops_002",
+    "channel_id": "C_PRAC_OPS",
+    "channel_name": "#케이스-현장실습",
+    "domain": "practicum",
+    "title": "현장실습 월간 운영 리스크 보드 002",
+    "markdown": "# 현장실습 월간 운영 리스크 보드 002\n\n> 현장실습 케이스 운영 현황과 병목을 모니터링하는 synthetic_demo 캔버스입니다.\n\n## 점검 항목\n- [ ] 지연 케이스 확인\n- [ ] 누락 서류 회수\n- [ ] 승인 마감 점검\n- [ ] 고위험 케이스 관리자 보고\n\n## 연결 케이스\n- case_prac_025\n- case_prac_026\n- case_prac_027\n- case_prac_028\n- case_prac_029\n- case_prac_030\n- case_prac_031\n- case_prac_032\n- case_prac_033\n- case_prac_034",
+    "related_case_ids": [
+      "case_prac_025",
+      "case_prac_026",
+      "case_prac_027",
+      "case_prac_028",
+      "case_prac_029",
+      "case_prac_030",
+      "case_prac_031",
+      "case_prac_032",
+      "case_prac_033",
+      "case_prac_034"
+    ],
+    "source_type": "synthetic_demo"
+  },
+  {
+    "canvas_id": "can_prac_ops_003",
+    "channel_id": "C_PRAC_OPS",
+    "channel_name": "#케이스-현장실습",
+    "domain": "practicum",
+    "title": "현장실습 월간 운영 리스크 보드 003",
+    "markdown": "# 현장실습 월간 운영 리스크 보드 003\n\n> 현장실습 케이스 운영 현황과 병목을 모니터링하는 synthetic_demo 캔버스입니다.\n\n## 점검 항목\n- [ ] 지연 케이스 확인\n- [ ] 누락 서류 회수\n- [ ] 승인 마감 점검\n- [ ] 고위험 케이스 관리자 보고\n\n## 연결 케이스\n- case_prac_035\n- case_prac_036\n- case_prac_037\n- case_prac_038\n- case_prac_039\n- case_prac_040\n- case_prac_041\n- case_prac_042\n- case_prac_043\n- case_prac_044",
+    "related_case_ids": [
+      "case_prac_035",
+      "case_prac_036",
+      "case_prac_037",
+      "case_prac_038",
+      "case_prac_039",
+      "case_prac_040",
+      "case_prac_041",
+      "case_prac_042",
+      "case_prac_043",
+      "case_prac_044"
+    ],
+    "source_type": "synthetic_demo"
+  },
+  {
+    "canvas_id": "can_prac_ops_004",
+    "channel_id": "C_PRAC_OPS",
+    "channel_name": "#케이스-현장실습",
+    "domain": "practicum",
+    "title": "현장실습 월간 운영 리스크 보드 004",
+    "markdown": "# 현장실습 월간 운영 리스크 보드 004\n\n> 현장실습 케이스 운영 현황과 병목을 모니터링하는 synthetic_demo 캔버스입니다.\n\n## 점검 항목\n- [ ] 지연 케이스 확인\n- [ ] 누락 서류 회수\n- [ ] 승인 마감 점검\n- [ ] 고위험 케이스 관리자 보고\n\n## 연결 케이스\n- case_prac_045\n- case_prac_046\n- case_prac_047\n- case_prac_048\n- case_prac_049\n- case_prac_050\n- case_prac_051\n- case_prac_052\n- case_prac_053\n- case_prac_054",
+    "related_case_ids": [
+      "case_prac_045",
+      "case_prac_046",
+      "case_prac_047",
+      "case_prac_048",
+      "case_prac_049",
+      "case_prac_050",
+      "case_prac_051",
+      "case_prac_052",
+      "case_prac_053",
+      "case_prac_054"
+    ],
+    "source_type": "synthetic_demo"
+  },
+  {
+    "canvas_id": "can_prac_ops_005",
+    "channel_id": "C_PRAC_OPS",
+    "channel_name": "#케이스-현장실습",
+    "domain": "practicum",
+    "title": "현장실습 월간 운영 리스크 보드 005",
+    "markdown": "# 현장실습 월간 운영 리스크 보드 005\n\n> 현장실습 케이스 운영 현황과 병목을 모니터링하는 synthetic_demo 캔버스입니다.\n\n## 점검 항목\n- [ ] 지연 케이스 확인\n- [ ] 누락 서류 회수\n- [ ] 승인 마감 점검\n- [ ] 고위험 케이스 관리자 보고\n\n## 연결 케이스\n- case_prac_055\n- case_prac_056\n- case_prac_057\n- case_prac_058\n- case_prac_059\n- case_prac_060",
+    "related_case_ids": [
+      "case_prac_055",
+      "case_prac_056",
+      "case_prac_057",
+      "case_prac_058",
+      "case_prac_059",
+      "case_prac_060"
+    ],
+    "source_type": "synthetic_demo"
+  },
+  {
+    "canvas_id": "can_sch_ops_001",
+    "channel_id": "C_SCH_REVIEW",
+    "channel_name": "#케이스-장학",
+    "domain": "scholarship",
+    "title": "장학 월간 운영 리스크 보드 001",
+    "markdown": "# 장학 월간 운영 리스크 보드 001\n\n> 장학 케이스 운영 현황과 병목을 모니터링하는 synthetic_demo 캔버스입니다.\n\n## 점검 항목\n- [ ] 지연 케이스 확인\n- [ ] 누락 서류 회수\n- [ ] 승인 마감 점검\n- [ ] 고위험 케이스 관리자 보고\n\n## 연결 케이스\n- case_sch_015\n- case_sch_016\n- case_sch_017\n- case_sch_018\n- case_sch_019\n- case_sch_020\n- case_sch_021\n- case_sch_022\n- case_sch_023\n- case_sch_024",
+    "related_case_ids": [
+      "case_sch_015",
+      "case_sch_016",
+      "case_sch_017",
+      "case_sch_018",
+      "case_sch_019",
+      "case_sch_020",
+      "case_sch_021",
+      "case_sch_022",
+      "case_sch_023",
+      "case_sch_024"
+    ],
+    "source_type": "synthetic_demo"
+  },
+  {
+    "canvas_id": "can_sch_ops_002",
+    "channel_id": "C_SCH_REVIEW",
+    "channel_name": "#케이스-장학",
+    "domain": "scholarship",
+    "title": "장학 월간 운영 리스크 보드 002",
+    "markdown": "# 장학 월간 운영 리스크 보드 002\n\n> 장학 케이스 운영 현황과 병목을 모니터링하는 synthetic_demo 캔버스입니다.\n\n## 점검 항목\n- [ ] 지연 케이스 확인\n- [ ] 누락 서류 회수\n- [ ] 승인 마감 점검\n- [ ] 고위험 케이스 관리자 보고\n\n## 연결 케이스\n- case_sch_025\n- case_sch_026\n- case_sch_027\n- case_sch_028\n- case_sch_029\n- case_sch_030\n- case_sch_031\n- case_sch_032\n- case_sch_033\n- case_sch_034",
+    "related_case_ids": [
+      "case_sch_025",
+      "case_sch_026",
+      "case_sch_027",
+      "case_sch_028",
+      "case_sch_029",
+      "case_sch_030",
+      "case_sch_031",
+      "case_sch_032",
+      "case_sch_033",
+      "case_sch_034"
+    ],
+    "source_type": "synthetic_demo"
+  },
+  {
+    "canvas_id": "can_sch_ops_003",
+    "channel_id": "C_SCH_REVIEW",
+    "channel_name": "#케이스-장학",
+    "domain": "scholarship",
+    "title": "장학 월간 운영 리스크 보드 003",
+    "markdown": "# 장학 월간 운영 리스크 보드 003\n\n> 장학 케이스 운영 현황과 병목을 모니터링하는 synthetic_demo 캔버스입니다.\n\n## 점검 항목\n- [ ] 지연 케이스 확인\n- [ ] 누락 서류 회수\n- [ ] 승인 마감 점검\n- [ ] 고위험 케이스 관리자 보고\n\n## 연결 케이스\n- case_sch_035\n- case_sch_036\n- case_sch_037\n- case_sch_038\n- case_sch_039\n- case_sch_040\n- case_sch_041\n- case_sch_042\n- case_sch_043\n- case_sch_044",
+    "related_case_ids": [
+      "case_sch_035",
+      "case_sch_036",
+      "case_sch_037",
+      "case_sch_038",
+      "case_sch_039",
+      "case_sch_040",
+      "case_sch_041",
+      "case_sch_042",
+      "case_sch_043",
+      "case_sch_044"
+    ],
+    "source_type": "synthetic_demo"
+  },
+  {
+    "canvas_id": "can_sch_ops_004",
+    "channel_id": "C_SCH_REVIEW",
+    "channel_name": "#케이스-장학",
+    "domain": "scholarship",
+    "title": "장학 월간 운영 리스크 보드 004",
+    "markdown": "# 장학 월간 운영 리스크 보드 004\n\n> 장학 케이스 운영 현황과 병목을 모니터링하는 synthetic_demo 캔버스입니다.\n\n## 점검 항목\n- [ ] 지연 케이스 확인\n- [ ] 누락 서류 회수\n- [ ] 승인 마감 점검\n- [ ] 고위험 케이스 관리자 보고\n\n## 연결 케이스\n- case_sch_045\n- case_sch_046\n- case_sch_047\n- case_sch_048\n- case_sch_049\n- case_sch_050\n- case_sch_051\n- case_sch_052\n- case_sch_053\n- case_sch_054",
+    "related_case_ids": [
+      "case_sch_045",
+      "case_sch_046",
+      "case_sch_047",
+      "case_sch_048",
+      "case_sch_049",
+      "case_sch_050",
+      "case_sch_051",
+      "case_sch_052",
+      "case_sch_053",
+      "case_sch_054"
+    ],
+    "source_type": "synthetic_demo"
+  },
+  {
+    "canvas_id": "can_sch_ops_005",
+    "channel_id": "C_SCH_REVIEW",
+    "channel_name": "#케이스-장학",
+    "domain": "scholarship",
+    "title": "장학 월간 운영 리스크 보드 005",
+    "markdown": "# 장학 월간 운영 리스크 보드 005\n\n> 장학 케이스 운영 현황과 병목을 모니터링하는 synthetic_demo 캔버스입니다.\n\n## 점검 항목\n- [ ] 지연 케이스 확인\n- [ ] 누락 서류 회수\n- [ ] 승인 마감 점검\n- [ ] 고위험 케이스 관리자 보고\n\n## 연결 케이스\n- case_sch_055\n- case_sch_056\n- case_sch_057\n- case_sch_058\n- case_sch_059\n- case_sch_060",
+    "related_case_ids": [
+      "case_sch_055",
+      "case_sch_056",
+      "case_sch_057",
+      "case_sch_058",
+      "case_sch_059",
+      "case_sch_060"
+    ],
+    "source_type": "synthetic_demo"
+  },
+  {
+    "canvas_id": "can_acad_ops_001",
+    "channel_id": "C_ACAD_OPS",
+    "channel_name": "#케이스-학사",
+    "domain": "academic",
+    "title": "학사 월간 운영 리스크 보드 001",
+    "markdown": "# 학사 월간 운영 리스크 보드 001\n\n> 학사 케이스 운영 현황과 병목을 모니터링하는 synthetic_demo 캔버스입니다.\n\n## 점검 항목\n- [ ] 지연 케이스 확인\n- [ ] 누락 서류 회수\n- [ ] 승인 마감 점검\n- [ ] 고위험 케이스 관리자 보고\n\n## 연결 케이스\n- case_acad_015\n- case_acad_016\n- case_acad_017\n- case_acad_018\n- case_acad_019\n- case_acad_020\n- case_acad_021\n- case_acad_022\n- case_acad_023\n- case_acad_024",
+    "related_case_ids": [
+      "case_acad_015",
+      "case_acad_016",
+      "case_acad_017",
+      "case_acad_018",
+      "case_acad_019",
+      "case_acad_020",
+      "case_acad_021",
+      "case_acad_022",
+      "case_acad_023",
+      "case_acad_024"
+    ],
+    "source_type": "synthetic_demo"
+  },
+  {
+    "canvas_id": "can_acad_ops_002",
+    "channel_id": "C_ACAD_OPS",
+    "channel_name": "#케이스-학사",
+    "domain": "academic",
+    "title": "학사 월간 운영 리스크 보드 002",
+    "markdown": "# 학사 월간 운영 리스크 보드 002\n\n> 학사 케이스 운영 현황과 병목을 모니터링하는 synthetic_demo 캔버스입니다.\n\n## 점검 항목\n- [ ] 지연 케이스 확인\n- [ ] 누락 서류 회수\n- [ ] 승인 마감 점검\n- [ ] 고위험 케이스 관리자 보고\n\n## 연결 케이스\n- case_acad_025\n- case_acad_026\n- case_acad_027\n- case_acad_028\n- case_acad_029\n- case_acad_030\n- case_acad_031\n- case_acad_032\n- case_acad_033\n- case_acad_034",
+    "related_case_ids": [
+      "case_acad_025",
+      "case_acad_026",
+      "case_acad_027",
+      "case_acad_028",
+      "case_acad_029",
+      "case_acad_030",
+      "case_acad_031",
+      "case_acad_032",
+      "case_acad_033",
+      "case_acad_034"
+    ],
+    "source_type": "synthetic_demo"
+  },
+  {
+    "canvas_id": "can_acad_ops_003",
+    "channel_id": "C_ACAD_OPS",
+    "channel_name": "#케이스-학사",
+    "domain": "academic",
+    "title": "학사 월간 운영 리스크 보드 003",
+    "markdown": "# 학사 월간 운영 리스크 보드 003\n\n> 학사 케이스 운영 현황과 병목을 모니터링하는 synthetic_demo 캔버스입니다.\n\n## 점검 항목\n- [ ] 지연 케이스 확인\n- [ ] 누락 서류 회수\n- [ ] 승인 마감 점검\n- [ ] 고위험 케이스 관리자 보고\n\n## 연결 케이스\n- case_acad_035\n- case_acad_036\n- case_acad_037\n- case_acad_038\n- case_acad_039\n- case_acad_040\n- case_acad_041\n- case_acad_042\n- case_acad_043\n- case_acad_044",
+    "related_case_ids": [
+      "case_acad_035",
+      "case_acad_036",
+      "case_acad_037",
+      "case_acad_038",
+      "case_acad_039",
+      "case_acad_040",
+      "case_acad_041",
+      "case_acad_042",
+      "case_acad_043",
+      "case_acad_044"
+    ],
+    "source_type": "synthetic_demo"
+  },
+  {
+    "canvas_id": "can_acad_ops_004",
+    "channel_id": "C_ACAD_OPS",
+    "channel_name": "#케이스-학사",
+    "domain": "academic",
+    "title": "학사 월간 운영 리스크 보드 004",
+    "markdown": "# 학사 월간 운영 리스크 보드 004\n\n> 학사 케이스 운영 현황과 병목을 모니터링하는 synthetic_demo 캔버스입니다.\n\n## 점검 항목\n- [ ] 지연 케이스 확인\n- [ ] 누락 서류 회수\n- [ ] 승인 마감 점검\n- [ ] 고위험 케이스 관리자 보고\n\n## 연결 케이스\n- case_acad_045\n- case_acad_046\n- case_acad_047\n- case_acad_048\n- case_acad_049\n- case_acad_050\n- case_acad_051\n- case_acad_052\n- case_acad_053\n- case_acad_054",
+    "related_case_ids": [
+      "case_acad_045",
+      "case_acad_046",
+      "case_acad_047",
+      "case_acad_048",
+      "case_acad_049",
+      "case_acad_050",
+      "case_acad_051",
+      "case_acad_052",
+      "case_acad_053",
+      "case_acad_054"
+    ],
+    "source_type": "synthetic_demo"
+  },
+  {
+    "canvas_id": "can_acad_ops_005",
+    "channel_id": "C_ACAD_OPS",
+    "channel_name": "#케이스-학사",
+    "domain": "academic",
+    "title": "학사 월간 운영 리스크 보드 005",
+    "markdown": "# 학사 월간 운영 리스크 보드 005\n\n> 학사 케이스 운영 현황과 병목을 모니터링하는 synthetic_demo 캔버스입니다.\n\n## 점검 항목\n- [ ] 지연 케이스 확인\n- [ ] 누락 서류 회수\n- [ ] 승인 마감 점검\n- [ ] 고위험 케이스 관리자 보고\n\n## 연결 케이스\n- case_acad_055\n- case_acad_056\n- case_acad_057\n- case_acad_058\n- case_acad_059\n- case_acad_060",
+    "related_case_ids": [
+      "case_acad_055",
+      "case_acad_056",
+      "case_acad_057",
+      "case_acad_058",
+      "case_acad_059",
+      "case_acad_060"
+    ],
+    "source_type": "synthetic_demo"
+  },
+  {
+    "canvas_id": "can_civil_ops_001",
+    "channel_id": "C_CIVIL_DESK",
+    "channel_name": "#케이스-민원",
+    "domain": "complaint",
+    "title": "민원 월간 운영 리스크 보드 001",
+    "markdown": "# 민원 월간 운영 리스크 보드 001\n\n> 민원 케이스 운영 현황과 병목을 모니터링하는 synthetic_demo 캔버스입니다.\n\n## 점검 항목\n- [ ] 지연 케이스 확인\n- [ ] 누락 서류 회수\n- [ ] 승인 마감 점검\n- [ ] 고위험 케이스 관리자 보고\n\n## 연결 케이스\n- case_civil_015\n- case_civil_016\n- case_civil_017\n- case_civil_018\n- case_civil_019\n- case_civil_020\n- case_civil_021\n- case_civil_022\n- case_civil_023\n- case_civil_024",
+    "related_case_ids": [
+      "case_civil_015",
+      "case_civil_016",
+      "case_civil_017",
+      "case_civil_018",
+      "case_civil_019",
+      "case_civil_020",
+      "case_civil_021",
+      "case_civil_022",
+      "case_civil_023",
+      "case_civil_024"
+    ],
+    "source_type": "synthetic_demo"
+  },
+  {
+    "canvas_id": "can_civil_ops_002",
+    "channel_id": "C_CIVIL_DESK",
+    "channel_name": "#케이스-민원",
+    "domain": "complaint",
+    "title": "민원 월간 운영 리스크 보드 002",
+    "markdown": "# 민원 월간 운영 리스크 보드 002\n\n> 민원 케이스 운영 현황과 병목을 모니터링하는 synthetic_demo 캔버스입니다.\n\n## 점검 항목\n- [ ] 지연 케이스 확인\n- [ ] 누락 서류 회수\n- [ ] 승인 마감 점검\n- [ ] 고위험 케이스 관리자 보고\n\n## 연결 케이스\n- case_civil_025\n- case_civil_026\n- case_civil_027\n- case_civil_028\n- case_civil_029\n- case_civil_030\n- case_civil_031\n- case_civil_032\n- case_civil_033\n- case_civil_034",
+    "related_case_ids": [
+      "case_civil_025",
+      "case_civil_026",
+      "case_civil_027",
+      "case_civil_028",
+      "case_civil_029",
+      "case_civil_030",
+      "case_civil_031",
+      "case_civil_032",
+      "case_civil_033",
+      "case_civil_034"
+    ],
+    "source_type": "synthetic_demo"
+  },
+  {
+    "canvas_id": "can_civil_ops_003",
+    "channel_id": "C_CIVIL_DESK",
+    "channel_name": "#케이스-민원",
+    "domain": "complaint",
+    "title": "민원 월간 운영 리스크 보드 003",
+    "markdown": "# 민원 월간 운영 리스크 보드 003\n\n> 민원 케이스 운영 현황과 병목을 모니터링하는 synthetic_demo 캔버스입니다.\n\n## 점검 항목\n- [ ] 지연 케이스 확인\n- [ ] 누락 서류 회수\n- [ ] 승인 마감 점검\n- [ ] 고위험 케이스 관리자 보고\n\n## 연결 케이스\n- case_civil_035\n- case_civil_036\n- case_civil_037\n- case_civil_038\n- case_civil_039\n- case_civil_040\n- case_civil_041\n- case_civil_042\n- case_civil_043\n- case_civil_044",
+    "related_case_ids": [
+      "case_civil_035",
+      "case_civil_036",
+      "case_civil_037",
+      "case_civil_038",
+      "case_civil_039",
+      "case_civil_040",
+      "case_civil_041",
+      "case_civil_042",
+      "case_civil_043",
+      "case_civil_044"
+    ],
+    "source_type": "synthetic_demo"
+  },
+  {
+    "canvas_id": "can_civil_ops_004",
+    "channel_id": "C_CIVIL_DESK",
+    "channel_name": "#케이스-민원",
+    "domain": "complaint",
+    "title": "민원 월간 운영 리스크 보드 004",
+    "markdown": "# 민원 월간 운영 리스크 보드 004\n\n> 민원 케이스 운영 현황과 병목을 모니터링하는 synthetic_demo 캔버스입니다.\n\n## 점검 항목\n- [ ] 지연 케이스 확인\n- [ ] 누락 서류 회수\n- [ ] 승인 마감 점검\n- [ ] 고위험 케이스 관리자 보고\n\n## 연결 케이스\n- case_civil_045\n- case_civil_046\n- case_civil_047\n- case_civil_048\n- case_civil_049\n- case_civil_050\n- case_civil_051\n- case_civil_052\n- case_civil_053\n- case_civil_054",
+    "related_case_ids": [
+      "case_civil_045",
+      "case_civil_046",
+      "case_civil_047",
+      "case_civil_048",
+      "case_civil_049",
+      "case_civil_050",
+      "case_civil_051",
+      "case_civil_052",
+      "case_civil_053",
+      "case_civil_054"
+    ],
+    "source_type": "synthetic_demo"
+  },
+  {
+    "canvas_id": "can_civil_ops_005",
+    "channel_id": "C_CIVIL_DESK",
+    "channel_name": "#케이스-민원",
+    "domain": "complaint",
+    "title": "민원 월간 운영 리스크 보드 005",
+    "markdown": "# 민원 월간 운영 리스크 보드 005\n\n> 민원 케이스 운영 현황과 병목을 모니터링하는 synthetic_demo 캔버스입니다.\n\n## 점검 항목\n- [ ] 지연 케이스 확인\n- [ ] 누락 서류 회수\n- [ ] 승인 마감 점검\n- [ ] 고위험 케이스 관리자 보고\n\n## 연결 케이스\n- case_civil_055\n- case_civil_056\n- case_civil_057\n- case_civil_058\n- case_civil_059\n- case_civil_060",
+    "related_case_ids": [
+      "case_civil_055",
+      "case_civil_056",
+      "case_civil_057",
+      "case_civil_058",
+      "case_civil_059",
+      "case_civil_060"
+    ],
+    "source_type": "synthetic_demo"
+  },
+  {
+    "canvas_id": "can_intl_ops_001",
+    "channel_id": "C_INTL_SUPPORT",
+    "channel_name": "#케이스-유학생",
+    "domain": "international",
+    "title": "유학생 월간 운영 리스크 보드 001",
+    "markdown": "# 유학생 월간 운영 리스크 보드 001\n\n> 유학생 케이스 운영 현황과 병목을 모니터링하는 synthetic_demo 캔버스입니다.\n\n## 점검 항목\n- [ ] 지연 케이스 확인\n- [ ] 누락 서류 회수\n- [ ] 승인 마감 점검\n- [ ] 고위험 케이스 관리자 보고\n\n## 연결 케이스\n- case_intl_015\n- case_intl_016\n- case_intl_017\n- case_intl_018\n- case_intl_019\n- case_intl_020\n- case_intl_021\n- case_intl_022\n- case_intl_023\n- case_intl_024",
+    "related_case_ids": [
+      "case_intl_015",
+      "case_intl_016",
+      "case_intl_017",
+      "case_intl_018",
+      "case_intl_019",
+      "case_intl_020",
+      "case_intl_021",
+      "case_intl_022",
+      "case_intl_023",
+      "case_intl_024"
+    ],
+    "source_type": "synthetic_demo"
+  },
+  {
+    "canvas_id": "can_intl_ops_002",
+    "channel_id": "C_INTL_SUPPORT",
+    "channel_name": "#케이스-유학생",
+    "domain": "international",
+    "title": "유학생 월간 운영 리스크 보드 002",
+    "markdown": "# 유학생 월간 운영 리스크 보드 002\n\n> 유학생 케이스 운영 현황과 병목을 모니터링하는 synthetic_demo 캔버스입니다.\n\n## 점검 항목\n- [ ] 지연 케이스 확인\n- [ ] 누락 서류 회수\n- [ ] 승인 마감 점검\n- [ ] 고위험 케이스 관리자 보고\n\n## 연결 케이스\n- case_intl_025\n- case_intl_026\n- case_intl_027\n- case_intl_028\n- case_intl_029\n- case_intl_030\n- case_intl_031\n- case_intl_032\n- case_intl_033\n- case_intl_034",
+    "related_case_ids": [
+      "case_intl_025",
+      "case_intl_026",
+      "case_intl_027",
+      "case_intl_028",
+      "case_intl_029",
+      "case_intl_030",
+      "case_intl_031",
+      "case_intl_032",
+      "case_intl_033",
+      "case_intl_034"
+    ],
+    "source_type": "synthetic_demo"
+  },
+  {
+    "canvas_id": "can_intl_ops_003",
+    "channel_id": "C_INTL_SUPPORT",
+    "channel_name": "#케이스-유학생",
+    "domain": "international",
+    "title": "유학생 월간 운영 리스크 보드 003",
+    "markdown": "# 유학생 월간 운영 리스크 보드 003\n\n> 유학생 케이스 운영 현황과 병목을 모니터링하는 synthetic_demo 캔버스입니다.\n\n## 점검 항목\n- [ ] 지연 케이스 확인\n- [ ] 누락 서류 회수\n- [ ] 승인 마감 점검\n- [ ] 고위험 케이스 관리자 보고\n\n## 연결 케이스\n- case_intl_035\n- case_intl_036\n- case_intl_037\n- case_intl_038\n- case_intl_039\n- case_intl_040\n- case_intl_041\n- case_intl_042\n- case_intl_043\n- case_intl_044",
+    "related_case_ids": [
+      "case_intl_035",
+      "case_intl_036",
+      "case_intl_037",
+      "case_intl_038",
+      "case_intl_039",
+      "case_intl_040",
+      "case_intl_041",
+      "case_intl_042",
+      "case_intl_043",
+      "case_intl_044"
+    ],
+    "source_type": "synthetic_demo"
+  },
+  {
+    "canvas_id": "can_intl_ops_004",
+    "channel_id": "C_INTL_SUPPORT",
+    "channel_name": "#케이스-유학생",
+    "domain": "international",
+    "title": "유학생 월간 운영 리스크 보드 004",
+    "markdown": "# 유학생 월간 운영 리스크 보드 004\n\n> 유학생 케이스 운영 현황과 병목을 모니터링하는 synthetic_demo 캔버스입니다.\n\n## 점검 항목\n- [ ] 지연 케이스 확인\n- [ ] 누락 서류 회수\n- [ ] 승인 마감 점검\n- [ ] 고위험 케이스 관리자 보고\n\n## 연결 케이스\n- case_intl_045\n- case_intl_046\n- case_intl_047\n- case_intl_048\n- case_intl_049\n- case_intl_050\n- case_intl_051\n- case_intl_052\n- case_intl_053\n- case_intl_054",
+    "related_case_ids": [
+      "case_intl_045",
+      "case_intl_046",
+      "case_intl_047",
+      "case_intl_048",
+      "case_intl_049",
+      "case_intl_050",
+      "case_intl_051",
+      "case_intl_052",
+      "case_intl_053",
+      "case_intl_054"
+    ],
+    "source_type": "synthetic_demo"
+  },
+  {
+    "canvas_id": "can_intl_ops_005",
+    "channel_id": "C_INTL_SUPPORT",
+    "channel_name": "#케이스-유학생",
+    "domain": "international",
+    "title": "유학생 월간 운영 리스크 보드 005",
+    "markdown": "# 유학생 월간 운영 리스크 보드 005\n\n> 유학생 케이스 운영 현황과 병목을 모니터링하는 synthetic_demo 캔버스입니다.\n\n## 점검 항목\n- [ ] 지연 케이스 확인\n- [ ] 누락 서류 회수\n- [ ] 승인 마감 점검\n- [ ] 고위험 케이스 관리자 보고\n\n## 연결 케이스\n- case_intl_055\n- case_intl_056\n- case_intl_057\n- case_intl_058\n- case_intl_059\n- case_intl_060",
+    "related_case_ids": [
+      "case_intl_055",
+      "case_intl_056",
+      "case_intl_057",
+      "case_intl_058",
+      "case_intl_059",
+      "case_intl_060"
+    ],
+    "source_type": "synthetic_demo"
+  },
+  {
+    "canvas_id": "can_succ_ops_001",
+    "channel_id": "C_SUCCESS_CARE",
+    "channel_name": "#케이스-학생성공",
+    "domain": "student_success",
+    "title": "학생성공 월간 운영 리스크 보드 001",
+    "markdown": "# 학생성공 월간 운영 리스크 보드 001\n\n> 학생성공 케이스 운영 현황과 병목을 모니터링하는 synthetic_demo 캔버스입니다.\n\n## 점검 항목\n- [ ] 지연 케이스 확인\n- [ ] 누락 서류 회수\n- [ ] 승인 마감 점검\n- [ ] 고위험 케이스 관리자 보고\n\n## 연결 케이스\n- case_succ_015\n- case_succ_016\n- case_succ_017\n- case_succ_018\n- case_succ_019\n- case_succ_020\n- case_succ_021\n- case_succ_022\n- case_succ_023\n- case_succ_024",
+    "related_case_ids": [
+      "case_succ_015",
+      "case_succ_016",
+      "case_succ_017",
+      "case_succ_018",
+      "case_succ_019",
+      "case_succ_020",
+      "case_succ_021",
+      "case_succ_022",
+      "case_succ_023",
+      "case_succ_024"
+    ],
+    "source_type": "synthetic_demo"
+  },
+  {
+    "canvas_id": "can_succ_ops_002",
+    "channel_id": "C_SUCCESS_CARE",
+    "channel_name": "#케이스-학생성공",
+    "domain": "student_success",
+    "title": "학생성공 월간 운영 리스크 보드 002",
+    "markdown": "# 학생성공 월간 운영 리스크 보드 002\n\n> 학생성공 케이스 운영 현황과 병목을 모니터링하는 synthetic_demo 캔버스입니다.\n\n## 점검 항목\n- [ ] 지연 케이스 확인\n- [ ] 누락 서류 회수\n- [ ] 승인 마감 점검\n- [ ] 고위험 케이스 관리자 보고\n\n## 연결 케이스\n- case_succ_025\n- case_succ_026\n- case_succ_027\n- case_succ_028\n- case_succ_029\n- case_succ_030\n- case_succ_031\n- case_succ_032\n- case_succ_033\n- case_succ_034",
+    "related_case_ids": [
+      "case_succ_025",
+      "case_succ_026",
+      "case_succ_027",
+      "case_succ_028",
+      "case_succ_029",
+      "case_succ_030",
+      "case_succ_031",
+      "case_succ_032",
+      "case_succ_033",
+      "case_succ_034"
+    ],
+    "source_type": "synthetic_demo"
+  },
+  {
+    "canvas_id": "can_succ_ops_003",
+    "channel_id": "C_SUCCESS_CARE",
+    "channel_name": "#케이스-학생성공",
+    "domain": "student_success",
+    "title": "학생성공 월간 운영 리스크 보드 003",
+    "markdown": "# 학생성공 월간 운영 리스크 보드 003\n\n> 학생성공 케이스 운영 현황과 병목을 모니터링하는 synthetic_demo 캔버스입니다.\n\n## 점검 항목\n- [ ] 지연 케이스 확인\n- [ ] 누락 서류 회수\n- [ ] 승인 마감 점검\n- [ ] 고위험 케이스 관리자 보고\n\n## 연결 케이스\n- case_succ_035\n- case_succ_036\n- case_succ_037\n- case_succ_038\n- case_succ_039\n- case_succ_040\n- case_succ_041\n- case_succ_042\n- case_succ_043\n- case_succ_044",
+    "related_case_ids": [
+      "case_succ_035",
+      "case_succ_036",
+      "case_succ_037",
+      "case_succ_038",
+      "case_succ_039",
+      "case_succ_040",
+      "case_succ_041",
+      "case_succ_042",
+      "case_succ_043",
+      "case_succ_044"
+    ],
+    "source_type": "synthetic_demo"
+  },
+  {
+    "canvas_id": "can_succ_ops_004",
+    "channel_id": "C_SUCCESS_CARE",
+    "channel_name": "#케이스-학생성공",
+    "domain": "student_success",
+    "title": "학생성공 월간 운영 리스크 보드 004",
+    "markdown": "# 학생성공 월간 운영 리스크 보드 004\n\n> 학생성공 케이스 운영 현황과 병목을 모니터링하는 synthetic_demo 캔버스입니다.\n\n## 점검 항목\n- [ ] 지연 케이스 확인\n- [ ] 누락 서류 회수\n- [ ] 승인 마감 점검\n- [ ] 고위험 케이스 관리자 보고\n\n## 연결 케이스\n- case_succ_045\n- case_succ_046\n- case_succ_047\n- case_succ_048\n- case_succ_049\n- case_succ_050\n- case_succ_051\n- case_succ_052\n- case_succ_053\n- case_succ_054",
+    "related_case_ids": [
+      "case_succ_045",
+      "case_succ_046",
+      "case_succ_047",
+      "case_succ_048",
+      "case_succ_049",
+      "case_succ_050",
+      "case_succ_051",
+      "case_succ_052",
+      "case_succ_053",
+      "case_succ_054"
+    ],
+    "source_type": "synthetic_demo"
+  },
+  {
+    "canvas_id": "can_succ_ops_005",
+    "channel_id": "C_SUCCESS_CARE",
+    "channel_name": "#케이스-학생성공",
+    "domain": "student_success",
+    "title": "학생성공 월간 운영 리스크 보드 005",
+    "markdown": "# 학생성공 월간 운영 리스크 보드 005\n\n> 학생성공 케이스 운영 현황과 병목을 모니터링하는 synthetic_demo 캔버스입니다.\n\n## 점검 항목\n- [ ] 지연 케이스 확인\n- [ ] 누락 서류 회수\n- [ ] 승인 마감 점검\n- [ ] 고위험 케이스 관리자 보고\n\n## 연결 케이스\n- case_succ_055\n- case_succ_056\n- case_succ_057\n- case_succ_058\n- case_succ_059\n- case_succ_060",
+    "related_case_ids": [
+      "case_succ_055",
+      "case_succ_056",
+      "case_succ_057",
+      "case_succ_058",
+      "case_succ_059",
+      "case_succ_060"
+    ],
+    "source_type": "synthetic_demo"
+  }
+]

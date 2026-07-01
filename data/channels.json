@@ -1,0 +1,154 @@
+[
+  {
+    "channel_id": "C_PRAC_OPS",
+    "name": "#케이스-현장실습",
+    "ko_label": "현장실습 운영",
+    "domain": "practicum",
+    "purpose": "현장실습 업무 케이스 협업·처리 채널",
+    "members": [
+      "u_practicum_mgr",
+      "u_practicum_01",
+      "u_practicum_02",
+      "u_practicum_03",
+      "u_vice",
+      "u_dean"
+    ],
+    "source_type": "synthetic_demo"
+  },
+  {
+    "channel_id": "C_SCH_REVIEW",
+    "name": "#케이스-장학",
+    "ko_label": "장학 운영",
+    "domain": "scholarship",
+    "purpose": "장학 업무 케이스 협업·처리 채널",
+    "members": [
+      "u_scholarship_mgr",
+      "u_scholarship_01",
+      "u_scholarship_02",
+      "u_scholarship_03",
+      "u_vice",
+      "u_dean"
+    ],
+    "source_type": "synthetic_demo"
+  },
+  {
+    "channel_id": "C_ACAD_OPS",
+    "name": "#케이스-학사",
+    "ko_label": "학사 운영",
+    "domain": "academic",
+    "purpose": "학사 업무 케이스 협업·처리 채널",
+    "members": [
+      "u_academic_mgr",
+      "u_academic_01",
+      "u_academic_02",
+      "u_academic_03",
+      "u_vice",
+      "u_dean"
+    ],
+    "source_type": "synthetic_demo"
+  },
+  {
+    "channel_id": "C_CIVIL_DESK",
+    "name": "#케이스-민원",
+    "ko_label": "민원 운영",
+    "domain": "complaint",
+    "purpose": "민원 업무 케이스 협업·처리 채널",
+    "members": [
+      "u_complaint_mgr",
+      "u_complaint_01",
+      "u_complaint_02",
+      "u_complaint_03",
+      "u_vice",
+      "u_dean"
+    ],
+    "source_type": "synthetic_demo"
+  },
+  {
+    "channel_id": "C_INTL_SUPPORT",
+    "name": "#케이스-유학생",
+    "ko_label": "유학생 운영",
+    "domain": "international",
+    "purpose": "유학생 업무 케이스 협업·처리 채널",
+    "members": [
+      "u_international_mgr",
+      "u_international_01",
+      "u_international_02",
+      "u_international_03",
+      "u_vice",
+      "u_dean"
+    ],
+    "source_type": "synthetic_demo"
+  },
+  {
+    "channel_id": "C_SUCCESS_CARE",
+    "name": "#케이스-학생성공",
+    "ko_label": "학생성공 운영",
+    "domain": "student_success",
+    "purpose": "학생성공 업무 케이스 협업·처리 채널",
+    "members": [
+      "u_student_success_mgr",
+      "u_student_success_01",
+      "u_student_success_02",
+      "u_student_success_03",
+      "u_vice",
+      "u_dean"
+    ],
+    "source_type": "synthetic_demo"
+  },
+  {
+    "channel_id": "C_NOTICE",
+    "name": "#케이스-운영공지",
+    "ko_label": "운영 공지",
+    "domain": "all",
+    "purpose": "전체 공지",
+    "members": [
+      "u_dean",
+      "u_vice",
+      "u_practicum_mgr",
+      "u_practicum_01",
+      "u_practicum_02",
+      "u_practicum_03",
+      "u_scholarship_mgr",
+      "u_scholarship_01",
+      "u_scholarship_02",
+      "u_scholarship_03",
+      "u_academic_mgr",
+      "u_academic_01",
+      "u_academic_02",
+      "u_academic_03",
+      "u_complaint_mgr",
+      "u_complaint_01",
+      "u_complaint_02",
+      "u_complaint_03",
+      "u_international_mgr",
+      "u_international_01",
+      "u_international_02",
+      "u_international_03",
+      "u_student_success_mgr",
+      "u_student_success_01",
+      "u_student_success_02",
+      "u_student_success_03",
+      "u_registrar",
+      "u_privacy"
+    ],
+    "source_type": "synthetic_demo"
+  },
+  {
+    "channel_id": "C_DEAN_REPORT",
+    "name": "#케이스-학장보고",
+    "ko_label": "학장 보고",
+    "domain": "all",
+    "purpose": "학장 보고·결재 라인",
+    "members": [
+      "u_dean",
+      "u_vice",
+      "u_practicum_mgr",
+      "u_scholarship_mgr",
+      "u_academic_mgr",
+      "u_complaint_mgr",
+      "u_international_mgr",
+      "u_student_success_mgr"
+    ],
+    "source_type": "synthetic_demo"
+  }
+]

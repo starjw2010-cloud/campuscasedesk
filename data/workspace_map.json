@@ -1,0 +1,78 @@
+{
+  "workspace": "한빛대학교 CampusFlow 운영 데모",
+  "source_type": "synthetic_demo",
+  "generated_at": "2026-07-01T09:00:00",
+  "id_prefixes": {
+    "case": "case_<domain>_NNN",
+    "user": "u_*",
+    "channel": "C_*",
+    "thread": "thr_*",
+    "canvas": "can_*",
+    "task": "task_*",
+    "approval": "apr_NNNN",
+    "document": "doc_NNNN",
+    "student": "stu_2026_NNNN",
+    "relationship": "rel_NNNN"
+  },
+  "rag_root": "knowledge/",
+  "domains": [
+    {
+      "id": "practicum",
+      "ko_label": "현장실습",
+      "channel_id": "C_PRAC_OPS",
+      "case_count": 60
+    },
+    {
+      "id": "scholarship",
+      "ko_label": "장학",
+      "channel_id": "C_SCH_REVIEW",
+      "case_count": 60
+    },
+    {
+      "id": "academic",
+      "ko_label": "학사",
+      "channel_id": "C_ACAD_OPS",
+      "case_count": 60
+    },
+    {
+      "id": "complaint",
+      "ko_label": "민원",
+      "channel_id": "C_CIVIL_DESK",
+      "case_count": 60
+    },
+    {
+      "id": "international",
+      "ko_label": "유학생",
+      "channel_id": "C_INTL_SUPPORT",
+      "case_count": 60
+    },
+    {
+      "id": "student_success",
+      "ko_label": "학생성공",
+      "channel_id": "C_SUCCESS_CARE",
+      "case_count": 60
+    }
+  ],
+  "counts": {
+    "users": 28,
+    "channels": 8,
+    "students": 520,
+    "cases": 360,
+    "threads": 635,
+    "canvases": 54,
+    "tasks": 1041,
+    "approvals": 273,
+    "documents": 868,
+    "relationships": 7186
+  },
+  "mcp_compat": {
+    "adapter": "scripts/mcp_adapter.py",
+    "validate": "scripts/validate_data.py"
+  },
+  "enriched_at": "2026-07-01T09:00:00",
+  "enrichment": {
+    "target_cases_per_domain": 60,
+    "method": "deterministic append-only enrichment",
+    "source_type": "synthetic_demo"
+  }
+}

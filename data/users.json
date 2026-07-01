@@ -1,0 +1,339 @@
+[
+  {
+    "user_id": "u_dean",
+    "name": "강지원",
+    "role": "학장",
+    "department": "학장실",
+    "domains": [
+      "all"
+    ],
+    "email": "u_dean@campusflow.demo",
+    "manager_user_id": null,
+    "source_type": "synthetic_demo"
+  },
+  {
+    "user_id": "u_vice",
+    "name": "박민정",
+    "role": "부학장",
+    "department": "학장실",
+    "domains": [
+      "all"
+    ],
+    "email": "u_vice@campusflow.demo",
+    "manager_user_id": "u_dean",
+    "source_type": "synthetic_demo"
+  },
+  {
+    "user_id": "u_practicum_mgr",
+    "name": "이도윤",
+    "role": "현장실습 담당 팀장",
+    "department": "산학협력팀",
+    "domains": [
+      "practicum"
+    ],
+    "email": "u_practicum_mgr@campusflow.demo",
+    "manager_user_id": "u_vice",
+    "source_type": "synthetic_demo"
+  },
+  {
+    "user_id": "u_practicum_01",
+    "name": "정세린",
+    "role": "현장실습 담당자",
+    "department": "산학협력팀",
+    "domains": [
+      "practicum"
+    ],
+    "email": "u_practicum_01@campusflow.demo",
+    "manager_user_id": "u_practicum_mgr",
+    "source_type": "synthetic_demo"
+  },
+  {
+    "user_id": "u_practicum_02",
+    "name": "김도현",
+    "role": "현장실습 담당자",
+    "department": "산학협력팀",
+    "domains": [
+      "practicum"
+    ],
+    "email": "u_practicum_02@campusflow.demo",
+    "manager_user_id": "u_practicum_mgr",
+    "source_type": "synthetic_demo"
+  },
+  {
+    "user_id": "u_practicum_03",
+    "name": "최유나",
+    "role": "현장실습 담당자",
+    "department": "산학협력팀",
+    "domains": [
+      "practicum"
+    ],
+    "email": "u_practicum_03@campusflow.demo",
+    "manager_user_id": "u_practicum_mgr",
+    "source_type": "synthetic_demo"
+  },
+  {
+    "user_id": "u_scholarship_mgr",
+    "name": "한승호",
+    "role": "장학 담당 팀장",
+    "department": "학생지원팀",
+    "domains": [
+      "scholarship"
+    ],
+    "email": "u_scholarship_mgr@campusflow.demo",
+    "manager_user_id": "u_vice",
+    "source_type": "synthetic_demo"
+  },
+  {
+    "user_id": "u_scholarship_01",
+    "name": "오지훈",
+    "role": "장학 담당자",
+    "department": "학생지원팀",
+    "domains": [
+      "scholarship"
+    ],
+    "email": "u_scholarship_01@campusflow.demo",
+    "manager_user_id": "u_scholarship_mgr",
+    "source_type": "synthetic_demo"
+  },
+  {
+    "user_id": "u_scholarship_02",
+    "name": "서가은",
+    "role": "장학 담당자",
+    "department": "학생지원팀",
+    "domains": [
+      "scholarship"
+    ],
+    "email": "u_scholarship_02@campusflow.demo",
+    "manager_user_id": "u_scholarship_mgr",
+    "source_type": "synthetic_demo"
+  },
+  {
+    "user_id": "u_scholarship_03",
+    "name": "윤재호",
+    "role": "장학 담당자",
+    "department": "학생지원팀",
+    "domains": [
+      "scholarship"
+    ],
+    "email": "u_scholarship_03@campusflow.demo",
+    "manager_user_id": "u_scholarship_mgr",
+    "source_type": "synthetic_demo"
+  },
+  {
+    "user_id": "u_academic_mgr",
+    "name": "강하린",
+    "role": "학사 담당 팀장",
+    "department": "교학팀",
+    "domains": [
+      "academic"
+    ],
+    "email": "u_academic_mgr@campusflow.demo",
+    "manager_user_id": "u_vice",
+    "source_type": "synthetic_demo"
+  },
+  {
+    "user_id": "u_academic_01",
+    "name": "조민서",
+    "role": "학사 담당자",
+    "department": "교학팀",
+    "domains": [
+      "academic"
+    ],
+    "email": "u_academic_01@campusflow.demo",
+    "manager_user_id": "u_academic_mgr",
+    "source_type": "synthetic_demo"
+  },
+  {
+    "user_id": "u_academic_02",
+    "name": "임수진",
+    "role": "학사 담당자",
+    "department": "교학팀",
+    "domains": [
+      "academic"
+    ],
+    "email": "u_academic_02@campusflow.demo",
+    "manager_user_id": "u_academic_mgr",
+    "source_type": "synthetic_demo"
+  },
+  {
+    "user_id": "u_academic_03",
+    "name": "권태경",
+    "role": "학사 담당자",
+    "department": "교학팀",
+    "domains": [
+      "academic"
+    ],
+    "email": "u_academic_03@campusflow.demo",
+    "manager_user_id": "u_academic_mgr",
+    "source_type": "synthetic_demo"
+  },
+  {
+    "user_id": "u_complaint_mgr",
+    "name": "황보름",
+    "role": "민원 담당 팀장",
+    "department": "행정지원팀",
+    "domains": [
+      "complaint"
+    ],
+    "email": "u_complaint_mgr@campusflow.demo",
+    "manager_user_id": "u_vice",
+    "source_type": "synthetic_demo"
+  },
+  {
+    "user_id": "u_complaint_01",
+    "name": "신예찬",
+    "role": "민원 담당자",
+    "department": "행정지원팀",
+    "domains": [
+      "complaint"
+    ],
+    "email": "u_complaint_01@campusflow.demo",
+    "manager_user_id": "u_complaint_mgr",
+    "source_type": "synthetic_demo"
+  },
+  {
+    "user_id": "u_complaint_02",
+    "name": "송지아",
+    "role": "민원 담당자",
+    "department": "행정지원팀",
+    "domains": [
+      "complaint"
+    ],
+    "email": "u_complaint_02@campusflow.demo",
+    "manager_user_id": "u_complaint_mgr",
+    "source_type": "synthetic_demo"
+  },
+  {
+    "user_id": "u_complaint_03",
+    "name": "전우성",
+    "role": "민원 담당자",
+    "department": "행정지원팀",
+    "domains": [
+      "complaint"
+    ],
+    "email": "u_complaint_03@campusflow.demo",
+    "manager_user_id": "u_complaint_mgr",
+    "source_type": "synthetic_demo"
+  },
+  {
+    "user_id": "u_international_mgr",
+    "name": "홍서윤",
+    "role": "유학생 담당 팀장",
+    "department": "국제교류팀",
+    "domains": [
+      "international"
+    ],
+    "email": "u_international_mgr@campusflow.demo",
+    "manager_user_id": "u_vice",
+    "source_type": "synthetic_demo"
+  },
+  {
+    "user_id": "u_international_01",
+    "name": "배진우",
+    "role": "유학생 담당자",
+    "department": "국제교류팀",
+    "domains": [
+      "international"
+    ],
+    "email": "u_international_01@campusflow.demo",
+    "manager_user_id": "u_international_mgr",
+    "source_type": "synthetic_demo"
+  },
+  {
+    "user_id": "u_international_02",
+    "name": "문가람",
+    "role": "유학생 담당자",
+    "department": "국제교류팀",
+    "domains": [
+      "international"
+    ],
+    "email": "u_international_02@campusflow.demo",
+    "manager_user_id": "u_international_mgr",
+    "source_type": "synthetic_demo"
+  },
+  {
+    "user_id": "u_international_03",
+    "name": "안소민",
+    "role": "유학생 담당자",
+    "department": "국제교류팀",
+    "domains": [
+      "international"
+    ],
+    "email": "u_international_03@campusflow.demo",
+    "manager_user_id": "u_international_mgr",
+    "source_type": "synthetic_demo"
+  },
+  {
+    "user_id": "u_student_success_mgr",
+    "name": "유준혁",
+    "role": "학생성공 담당 팀장",
+    "department": "학생성공센터",
+    "domains": [
+      "student_success"
+    ],
+    "email": "u_student_success_mgr@campusflow.demo",
+    "manager_user_id": "u_vice",
+    "source_type": "synthetic_demo"
+  },
+  {
+    "user_id": "u_student_success_01",
+    "name": "고은별",
+    "role": "학생성공 담당자",
+    "department": "학생성공센터",
+    "domains": [
+      "student_success"
+    ],
+    "email": "u_student_success_01@campusflow.demo",
+    "manager_user_id": "u_student_success_mgr",
+    "source_type": "synthetic_demo"
+  },
+  {
+    "user_id": "u_student_success_02",
+    "name": "남기훈",
+    "role": "학생성공 담당자",
+    "department": "학생성공센터",
+    "domains": [
+      "student_success"
+    ],
+    "email": "u_student_success_02@campusflow.demo",
+    "manager_user_id": "u_student_success_mgr",
+    "source_type": "synthetic_demo"
+  },
+  {
+    "user_id": "u_student_success_03",
+    "name": "심다연",
+    "role": "학생성공 담당자",
+    "department": "학생성공센터",
+    "domains": [
+      "student_success"
+    ],
+    "email": "u_student_success_03@campusflow.demo",
+    "manager_user_id": "u_student_success_mgr",
+    "source_type": "synthetic_demo"
+  },
+  {
+    "user_id": "u_registrar",
+    "name": "구본우",
+    "role": "학적 담당",
+    "department": "교학팀",
+    "domains": [
+      "academic",
+      "student_success"
+    ],
+    "email": "u_registrar@campusflow.demo",
+    "manager_user_id": "u_academic_mgr",
+    "source_type": "synthetic_demo"
+  },
+  {
+    "user_id": "u_privacy",
+    "name": "장하늘",
+    "role": "개인정보 보호 담당",
+    "department": "행정지원팀",
+    "domains": [
+      "complaint"
+    ],
+    "email": "u_privacy@campusflow.demo",
+    "manager_user_id": "u_complaint_mgr",
+    "source_type": "synthetic_demo"
+  }
+]

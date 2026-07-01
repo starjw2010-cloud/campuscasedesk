@@ -1,0 +1,330 @@
+{
+  "source_type": "synthetic_demo",
+  "count": 36,
+  "documents": [
+    {
+      "path": "knowledge/practicum/early-withdrawal.md",
+      "doc_id": "practicum-early-withdrawal",
+      "domain": "practicum",
+      "title": "현장실습 중도 포기 처리 규정",
+      "applies_to_case_types": [
+        "early_withdrawal"
+      ]
+    },
+    {
+      "path": "knowledge/practicum/credit-recognition.md",
+      "doc_id": "practicum-credit-recognition",
+      "domain": "practicum",
+      "title": "현장실습 학점 인정 기준",
+      "applies_to_case_types": [
+        "early_withdrawal"
+      ]
+    },
+    {
+      "path": "knowledge/practicum/attendance.md",
+      "doc_id": "practicum-attendance",
+      "domain": "practicum",
+      "title": "현장실습 출근·근태 관리 지침",
+      "applies_to_case_types": [
+        "attendance_issue"
+      ]
+    },
+    {
+      "path": "knowledge/practicum/journal.md",
+      "doc_id": "practicum-journal",
+      "domain": "practicum",
+      "title": "실습일지 작성·제출 지침",
+      "applies_to_case_types": [
+        "journal_missing"
+      ]
+    },
+    {
+      "path": "knowledge/practicum/evaluation.md",
+      "doc_id": "practicum-evaluation",
+      "domain": "practicum",
+      "title": "기관 평가서 처리 지침",
+      "applies_to_case_types": [
+        "evaluation_delay"
+      ]
+    },
+    {
+      "path": "knowledge/practicum/insurance-guide.md",
+      "doc_id": "practicum-insurance-guide",
+      "domain": "practicum",
+      "title": "현장실습 산재·상해보험 가이드",
+      "applies_to_case_types": [
+        "insurance_missing"
+      ]
+    },
+    {
+      "path": "knowledge/practicum/site-change.md",
+      "doc_id": "practicum-site-change",
+      "domain": "practicum",
+      "title": "실습기관 변경 처리 절차",
+      "applies_to_case_types": [
+        "site_change"
+      ]
+    },
+    {
+      "path": "knowledge/scholarship/duplicate-award.md",
+      "doc_id": "scholarship-duplicate-award",
+      "domain": "scholarship",
+      "title": "장학금 중복 수혜 심사 기준",
+      "applies_to_case_types": [
+        "duplicate_award"
+      ]
+    },
+    {
+      "path": "knowledge/scholarship/payment-policy.md",
+      "doc_id": "scholarship-payment-policy",
+      "domain": "scholarship",
+      "title": "장학금 지급 규정",
+      "applies_to_case_types": [
+        "duplicate_award"
+      ]
+    },
+    {
+      "path": "knowledge/scholarship/clawback.md",
+      "doc_id": "scholarship-clawback",
+      "domain": "scholarship",
+      "title": "장학금 환수 처리 가이드",
+      "applies_to_case_types": [
+        "clawback"
+      ]
+    },
+    {
+      "path": "knowledge/scholarship/documents.md",
+      "doc_id": "scholarship-documents",
+      "domain": "scholarship",
+      "title": "장학 신청 서류 기준",
+      "applies_to_case_types": [
+        "document_missing"
+      ]
+    },
+    {
+      "path": "knowledge/scholarship/income-bracket.md",
+      "doc_id": "scholarship-income-bracket",
+      "domain": "scholarship",
+      "title": "소득분위 확인 절차",
+      "applies_to_case_types": [
+        "income_verification"
+      ]
+    },
+    {
+      "path": "knowledge/scholarship/recommendation.md",
+      "doc_id": "scholarship-recommendation",
+      "domain": "scholarship",
+      "title": "추천서 처리 기준",
+      "applies_to_case_types": [
+        "recommendation_missing"
+      ]
+    },
+    {
+      "path": "knowledge/academic/grade-appeal.md",
+      "doc_id": "academic-grade-appeal",
+      "domain": "academic",
+      "title": "성적 이의신청 처리 지침",
+      "applies_to_case_types": [
+        "grade_appeal"
+      ]
+    },
+    {
+      "path": "knowledge/academic/enrollment-change.md",
+      "doc_id": "academic-enrollment-change",
+      "domain": "academic",
+      "title": "수강 정정 처리 지침",
+      "applies_to_case_types": [
+        "course_change"
+      ]
+    },
+    {
+      "path": "knowledge/academic/leave-policy.md",
+      "doc_id": "academic-leave-policy",
+      "domain": "academic",
+      "title": "휴학 처리 규정",
+      "applies_to_case_types": [
+        "leave_of_absence"
+      ]
+    },
+    {
+      "path": "knowledge/academic/return-policy.md",
+      "doc_id": "academic-return-policy",
+      "domain": "academic",
+      "title": "복학 처리 규정",
+      "applies_to_case_types": [
+        "return_from_leave"
+      ]
+    },
+    {
+      "path": "knowledge/academic/graduation-audit.md",
+      "doc_id": "academic-graduation-audit",
+      "domain": "academic",
+      "title": "졸업요건 사정 지침",
+      "applies_to_case_types": [
+        "graduation_requirement"
+      ]
+    },
+    {
+      "path": "knowledge/academic/academic-warning.md",
+      "doc_id": "academic-academic-warning",
+      "domain": "academic",
+      "title": "학사경고 처리 규정",
+      "applies_to_case_types": [
+        "academic_warning"
+      ]
+    },
+    {
+      "path": "knowledge/academic/transfer.md",
+      "doc_id": "academic-transfer",
+      "domain": "academic",
+      "title": "전과 처리 절차",
+      "applies_to_case_types": [
+        "transfer_major"
+      ]
+    },
+    {
+      "path": "knowledge/complaint/handling-policy.md",
+      "doc_id": "complaint-handling-policy",
+      "domain": "complaint",
+      "title": "민원 처리 표준 절차",
+      "applies_to_case_types": [
+        "facility_complaint",
+        "processing_delay"
+      ]
+    },
+    {
+      "path": "knowledge/complaint/grade-info-policy.md",
+      "doc_id": "complaint-grade-info-policy",
+      "domain": "complaint",
+      "title": "성적정보 제공 기준",
+      "applies_to_case_types": [
+        "parent_grade_inquiry"
+      ]
+    },
+    {
+      "path": "knowledge/complaint/privacy-guideline.md",
+      "doc_id": "complaint-privacy-guideline",
+      "domain": "complaint",
+      "title": "개인정보 보호 지침",
+      "applies_to_case_types": [
+        "parent_grade_inquiry"
+      ]
+    },
+    {
+      "path": "knowledge/complaint/refund-policy.md",
+      "doc_id": "complaint-refund-policy",
+      "domain": "complaint",
+      "title": "등록금 환불 처리 절차",
+      "applies_to_case_types": [
+        "refund_request"
+      ]
+    },
+    {
+      "path": "knowledge/complaint/misconduct.md",
+      "doc_id": "complaint-misconduct",
+      "domain": "complaint",
+      "title": "부정행위 제보 처리 지침",
+      "applies_to_case_types": [
+        "misconduct_report"
+      ]
+    },
+    {
+      "path": "knowledge/international/visa-documents.md",
+      "doc_id": "international-visa-documents",
+      "domain": "international",
+      "title": "유학생 비자 서류 안내",
+      "applies_to_case_types": [
+        "visa_document_missing"
+      ]
+    },
+    {
+      "path": "knowledge/international/alien-registration.md",
+      "doc_id": "international-alien-registration",
+      "domain": "international",
+      "title": "외국인등록·신고 절차",
+      "applies_to_case_types": [
+        "immigration_report"
+      ]
+    },
+    {
+      "path": "knowledge/international/stay-management.md",
+      "doc_id": "international-stay-management",
+      "domain": "international",
+      "title": "체류기간 관리 지침",
+      "applies_to_case_types": [
+        "stay_expiry"
+      ]
+    },
+    {
+      "path": "knowledge/international/insurance.md",
+      "doc_id": "international-insurance",
+      "domain": "international",
+      "title": "유학생 보험 가입 가이드",
+      "applies_to_case_types": []
+    },
+    {
+      "path": "knowledge/international/korean.md",
+      "doc_id": "international-korean",
+      "domain": "international",
+      "title": "한국어 능력 요건 안내",
+      "applies_to_case_types": [
+        "korean_proficiency"
+      ]
+    },
+    {
+      "path": "knowledge/international/tuition.md",
+      "doc_id": "international-tuition",
+      "domain": "international",
+      "title": "유학생 등록금 분납 안내",
+      "applies_to_case_types": [
+        "tuition_installment"
+      ]
+    },
+    {
+      "path": "knowledge/student-success/warning-care.md",
+      "doc_id": "student-success-warning-care",
+      "domain": "student_success",
+      "title": "학사경고 상담 매뉴얼",
+      "applies_to_case_types": [
+        "academic_warning_care"
+      ]
+    },
+    {
+      "path": "knowledge/student-success/dropout-prevention.md",
+      "doc_id": "student-success-dropout-prevention",
+      "domain": "student_success",
+      "title": "중도탈락 위험 관리 지침",
+      "applies_to_case_types": [
+        "dropout_risk"
+      ]
+    },
+    {
+      "path": "knowledge/student-success/counseling-consent.md",
+      "doc_id": "student-success-counseling-consent",
+      "domain": "student_success",
+      "title": "상담 동의 절차",
+      "applies_to_case_types": [
+        "academic_warning_care",
+        "psych_referral"
+      ]
+    },
+    {
+      "path": "knowledge/student-success/career.md",
+      "doc_id": "student-success-career",
+      "domain": "student_success",
+      "title": "진로 상담 운영 지침",
+      "applies_to_case_types": [
+        "career_counseling"
+      ]
+    },
+    {
+      "path": "knowledge/student-success/attendance-alert.md",
+      "doc_id": "student-success-attendance-alert",
+      "domain": "student_success",
+      "title": "출석 경고 관리 지침",
+      "applies_to_case_types": [
+        "attendance_alert"
+      ]
+    }
+  ]
+}

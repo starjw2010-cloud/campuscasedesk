@@ -1,0 +1,3 @@
+# Runtime server is stdlib-only in DATA_BACKEND=jsonl mode.
+# Install this optional connector when DATA_BACKEND=mariadb.
+mysql-connector-python>=9.0.0
