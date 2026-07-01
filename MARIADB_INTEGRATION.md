@@ -35,12 +35,56 @@ IMPORT_MARIADB_ON_START=true
 
 Railway가 제공하는 database 옵션은 `mysql`이며, 이번 MCP에서는 MariaDB/MySQL wire protocol 호환 connector로 연결합니다.
 
+## 로컬 MariaDB 구현
+
+GitHub repo에는 로컬에서 MariaDB를 직접 띄워 검증할 수 있는 Docker Compose 구성이 포함되어 있습니다.
+
+```text
+docker-compose.yml
+Makefile
+env.local-mariadb.example
+scripts/check_mariadb_backend.py
+```
+
+Mac에 MariaDB server를 직접 설치하지 않아도 됩니다. Docker Desktop 또는 호환 Docker runtime이 있으면 아래 흐름으로 재현합니다.
+
+```bash
+docker compose up -d mariadb
+python3 -m pip install -r requirements.txt
+DATA_BACKEND=mariadb \
+MARIADB_URL=mysql://campusflow:campusflow_dev@127.0.0.1:3307/campusflow \
+python3 scripts/import_mariadb.py
+DATA_BACKEND=mariadb \
+MARIADB_URL=mysql://campusflow:campusflow_dev@127.0.0.1:3307/campusflow \
+python3 scripts/check_mariadb_backend.py
+```
+
+한 번에 실행:
+
+```bash
+make local-db-demo
+```
+
+로컬 Docker DB는 host port `3307`을 사용합니다.
+기존 Mac에 MySQL/MariaDB가 `3306`으로 떠 있어도 충돌하지 않게 하기 위한 선택입니다.
+
+검증 스크립트는 아래를 확인합니다.
+
+- MariaDB row count가 enriched dataset 기준 이상인지
+- `case_prac_001` anchor case가 DB에서 조회되는지
+- `list_approvals_due_today`가 DB backend로 동작하는지
+- `search_rag("장학 중복수혜 규정")`이 RAG 문서까지 DB import 후에도 정상인지
+
 ## 추가된 파일
 
 ```text
 database/mariadb_schema.sql
 scripts/mariadb_store.py
 scripts/import_mariadb.py
+scripts/check_mariadb_backend.py
+docker-compose.yml
+Makefile
+env.local-mariadb.example
 MARIADB_INTEGRATION.md
 ```
 

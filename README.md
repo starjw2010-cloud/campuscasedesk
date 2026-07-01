@@ -73,6 +73,30 @@ MARIADB_URL=mysql://user:password@host:3306/campusflow
 
 See `MARIADB_INTEGRATION.md`.
 
+### Local MariaDB with Docker
+
+This repo includes a reproducible local MariaDB path for demos and reviewers.
+It uses Docker Compose, so you do not need to install MariaDB directly on macOS.
+
+```bash
+docker compose up -d mariadb
+python3 -m pip install -r requirements.txt
+DATA_BACKEND=mariadb \
+MARIADB_URL=mysql://campusflow:campusflow_dev@127.0.0.1:3307/campusflow \
+python3 scripts/import_mariadb.py
+DATA_BACKEND=mariadb \
+MARIADB_URL=mysql://campusflow:campusflow_dev@127.0.0.1:3307/campusflow \
+python3 scripts/check_mariadb_backend.py
+```
+
+Or run the bundled make target:
+
+```bash
+make local-db-demo
+```
+
+The local Docker database is exposed on host port `3307` to avoid collisions with a native MySQL/MariaDB running on `3306`.
+
 Current enriched synthetic dataset:
 
 ```text
