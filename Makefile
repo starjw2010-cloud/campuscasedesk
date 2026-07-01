@@ -1,4 +1,5 @@
 PYTHON ?= python3
+DOCKER ?= $(shell command -v docker 2>/dev/null || echo /Volumes/jee_insight/Applications/Docker.app/Contents/Resources/bin/docker)
 LOCAL_MARIADB_URL ?= mysql://campusflow:campusflow_dev@127.0.0.1:3307/campusflow
 
 .PHONY: verify jsonl-smoke local-db-up local-db-down local-db-import local-db-check local-db-smoke local-db-demo
@@ -12,10 +13,10 @@ jsonl-smoke:
 	DATA_BACKEND=jsonl $(PYTHON) scripts/smoke_test_mcp.py
 
 local-db-up:
-	docker compose up -d mariadb
+	$(DOCKER) compose up -d mariadb
 
 local-db-down:
-	docker compose down
+	$(DOCKER) compose down
 
 local-db-import:
 	DATA_BACKEND=mariadb MARIADB_URL="$(LOCAL_MARIADB_URL)" $(PYTHON) scripts/import_mariadb.py
@@ -32,4 +33,3 @@ local-db-demo: local-db-up
 	$(MAKE) local-db-import
 	$(MAKE) local-db-check
 	$(MAKE) local-db-smoke
-

@@ -96,6 +96,8 @@ make local-db-demo
 ```
 
 The local Docker database is exposed on host port `3307` to avoid collisions with a native MySQL/MariaDB running on `3306`.
+MariaDB data is bind-mounted to `/Volumes/jee_insight/docker-data/campuscasedesk-mariadb` by default.
+Override it with `MARIADB_DATA_DIR=/your/external/path`.
 
 Current enriched synthetic dataset:
 

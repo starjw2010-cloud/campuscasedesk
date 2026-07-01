@@ -67,6 +67,8 @@ make local-db-demo
 
 로컬 Docker DB는 host port `3307`을 사용합니다.
 기존 Mac에 MySQL/MariaDB가 `3306`으로 떠 있어도 충돌하지 않게 하기 위한 선택입니다.
+MariaDB data directory는 기본적으로 외장하드의 `/Volumes/jee_insight/docker-data/campuscasedesk-mariadb`에 bind mount됩니다.
+다른 외장 경로를 쓰려면 `MARIADB_DATA_DIR=/your/external/path make local-db-demo`처럼 실행합니다.
 
 검증 스크립트는 아래를 확인합니다.
 
