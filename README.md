@@ -22,11 +22,23 @@ Case Desk:
 Local RAG index:
 
 - `search_rag`
+- `rag_vector_stats`
 - `get_doc`
 - `list_docs`
 
-`search_rag`, `get_doc`, `list_docs` load the existing `knowledge/*.md` corpus through `knowledge/index.json`.
+`search_rag`, `rag_vector_stats`, `get_doc`, `list_docs` load the existing `knowledge/*.md` corpus through `knowledge/index.json`.
 No RAG content is generated at runtime.
+
+`search_rag` supports three retrieval modes:
+
+```text
+mode=hybrid   # default, keyword + local vector retrieval
+mode=vector   # local TF-IDF/cosine vector retrieval
+mode=keyword  # previous keyword scorer
+```
+
+The current vector layer is dependency-free Python (`scripts/rag_vector_store.py`) so Railway deployment stays light.
+It can later be swapped for LangChain/LlamaIndex + Qdrant/Chroma/pgvector without changing the Slack MCP tool contract.
 
 ## Local
 
@@ -111,3 +123,27 @@ threads       635
 canvases       54
 relationships 7186
 ```
+
+## Vector RAG
+
+The MCP now includes a local vector-style RAG index:
+
+```bash
+python3 - <<'PY'
+import sys
+sys.path.insert(0, "scripts")
+import rag_store
+print(rag_store.vector_stats())
+print(rag_store.search_rag("실습 그만두면 학점은 어떻게 돼", mode="hybrid", limit=3))
+PY
+```
+
+Current index shape:
+
+```text
+documents 36
+chunks    252
+backend   local_vector_tfidf
+```
+
+This is a lightweight semantic-search MVP. For production, use the same chunk metadata with a managed vector database such as Qdrant, Chroma, pgvector, Pinecone, or Weaviate.

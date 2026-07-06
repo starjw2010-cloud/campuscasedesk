@@ -121,7 +121,7 @@ def get_doc(path: str):
     return None
 
 
-def search_rag(query: str, domain="all", limit=5):
+def _keyword_search(query: str, domain="all", limit=5):
     query = str(query or "").strip()
     query_tokens = _tokens(query)
     query_compact = _normalize(query)
@@ -171,3 +171,56 @@ def search_rag(query: str, domain="all", limit=5):
             )
     results.sort(key=lambda item: (-item["score"], item["path"]))
     return results[: int(limit or 5)]
+
+
+def _rrf_merge(keyword_results, vector_results, limit):
+    merged = {}
+    for source, weight, rows in [("keyword", 1.0, keyword_results), ("vector", 1.2, vector_results)]:
+        for rank, row in enumerate(rows, start=1):
+            key = row.get("chunk_id") or f"{row.get('path')}#{row.get('heading', '')}"
+            if key not in merged:
+                merged[key] = dict(row)
+                merged[key]["score"] = 0.0
+                merged[key]["retrieval_sources"] = []
+            merged[key]["score"] += weight * (1.0 / (60 + rank))
+            merged[key]["retrieval_sources"].append(source)
+            if source == "vector":
+                merged[key]["vector_score"] = row.get("score")
+            else:
+                merged[key]["keyword_score"] = row.get("score")
+    results = list(merged.values())
+    for row in results:
+        row["score"] = round(row["score"], 6)
+        row["retrieval"] = "hybrid_rrf"
+    results.sort(key=lambda item: (-item["score"], item["path"], item.get("heading", "")))
+    return results[: int(limit or 5)]
+
+
+def search_rag(query: str, domain="all", limit=5, mode="hybrid", case_type=""):
+    mode = (mode or "hybrid").strip().lower()
+    if mode == "keyword":
+        results = _keyword_search(query, domain=domain, limit=limit)
+        for row in results:
+            row["retrieval"] = "keyword"
+        return results
+    try:
+        import rag_vector_store
+    except Exception:
+        results = _keyword_search(query, domain=domain, limit=limit)
+        for row in results:
+            row["retrieval"] = "keyword_fallback"
+        return results
+    vector_results = rag_vector_store.search(query, domain=domain, limit=max(int(limit or 5) * 3, 10), case_type=case_type)
+    if mode == "vector":
+        return vector_results[: int(limit or 5)]
+    keyword_results = _keyword_search(query, domain=domain, limit=max(int(limit or 5) * 3, 10))
+    return _rrf_merge(keyword_results, vector_results, limit)
+
+
+def vector_stats():
+    try:
+        import rag_vector_store
+
+        return rag_vector_store.stats()
+    except Exception as exc:
+        return {"backend": "unavailable", "error": f"{type(exc).__name__}: {exc}"}

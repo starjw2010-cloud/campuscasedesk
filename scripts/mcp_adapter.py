@@ -240,16 +240,27 @@ def tool_definitions():
         },
         {
             "name": "search_rag",
-            "description": "Search the local CampusFlow RAG knowledge base by policy/procedure keywords.",
+            "description": "Search the CampusFlow RAG knowledge base with keyword, vector, or hybrid retrieval.",
             "inputSchema": {
                 "type": "object",
                 "properties": {
                     "query": {"type": "string", "description": "Korean policy/procedure search query."},
                     "domain": {"type": "string", "default": "all"},
+                    "case_type": {"type": "string", "description": "Optional case_type metadata filter such as early_withdrawal."},
+                    "mode": {
+                        "type": "string",
+                        "description": "Retrieval mode: hybrid, vector, or keyword.",
+                        "default": "hybrid",
+                    },
                     "limit": {"type": "integer", "default": 5, "minimum": 1, "maximum": 10},
                 },
                 "required": ["query"],
             },
+        },
+        {
+            "name": "rag_vector_stats",
+            "description": "Show local vector RAG index stats such as document, chunk, and term counts.",
+            "inputSchema": {"type": "object", "properties": {}},
         },
         {
             "name": "get_doc",
@@ -496,13 +507,34 @@ def get_rag_refs(arguments):
 def search_rag(arguments):
     query = arguments.get("query") or ""
     domain = arguments.get("domain") or "all"
+    mode = arguments.get("mode") or "hybrid"
+    case_type = arguments.get("case_type") or ""
     limit = int(arguments.get("limit") or 5)
-    results = rag_store.search_rag(query, domain=domain, limit=limit)
-    structured = {"query": query, "domain": domain, "results": results, "source_type": "synthetic_demo"}
+    results = rag_store.search_rag(query, domain=domain, limit=limit, mode=mode, case_type=case_type)
+    structured = {
+        "query": query,
+        "domain": domain,
+        "mode": mode,
+        "case_type": case_type,
+        "results": results,
+        "source_type": "synthetic_demo",
+    }
     text = "\n".join(
-        f"- {row['path']} {row['title']} · {row['domain']} · {row.get('heading')}"
+        f"- {row['path']} {row['title']} · {row['domain']} · {row.get('heading')} · {row.get('retrieval', 'n/a')}"
         for row in results
     ) or "검색된 RAG 문서가 없습니다."
+    return _text_result(text, structured)
+
+
+def rag_vector_stats(arguments):
+    structured = rag_store.vector_stats()
+    text = (
+        f"RAG vector index\n"
+        f"- backend: {structured.get('backend')}\n"
+        f"- documents: {structured.get('documents')}\n"
+        f"- chunks: {structured.get('chunks')}\n"
+        f"- terms: {structured.get('terms')}"
+    )
     return _text_result(text, structured)
 
 
@@ -648,6 +680,7 @@ TOOLS = {
     "list_documents": list_documents,
     "get_rag_refs": get_rag_refs,
     "search_rag": search_rag,
+    "rag_vector_stats": rag_vector_stats,
     "get_doc": get_doc,
     "list_docs": list_docs,
 }

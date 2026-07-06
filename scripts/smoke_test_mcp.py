@@ -15,7 +15,7 @@ def call(name, arguments):
 
 
 def main():
-    assert len(mcp_adapter.tool_definitions()) == 13
+    assert len(mcp_adapter.tool_definitions()) == 14
     assert call("find_cases", {"query": "현장실습 중도 포기"})["cases"]
     assert call("find_cases", {"has_missing_documents": True, "risk_level": "high"})["cases"]
     assert call("get_case_detail", {"case_id": "case_prac_001"})["found"]
@@ -27,6 +27,8 @@ def main():
     assert call("list_documents", {"case_id": "case_prac_001", "status": "미제출"})["documents"]
     assert call("get_rag_refs", {"case_id": "case_prac_001"})["refs"]
     assert call("search_rag", {"query": "장학 중복수혜 규정"})["results"][0]["path"] == "knowledge/scholarship/duplicate-award.md"
+    assert call("search_rag", {"query": "실습 그만두면 학점은 어떻게 돼", "mode": "vector"})["results"]
+    assert call("rag_vector_stats", {})["chunks"]
     assert call("get_doc", {"path": "knowledge/practicum/early-withdrawal.md"})["found"]
     assert call("list_docs", {"domain": "practicum"})["documents"]
     print({"ok": True, "service": "campuscasedesk"})
